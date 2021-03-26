@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.androidexample.databaseapp.shoppingonline"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml
+10    <!-- this is the internet permission -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:7:5-71
+13-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:7:22-68
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:8:22-78
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:10:5-60
+16-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:10:19-57
+17    <uses-feature android:name="android.hardware.location.gps" /> <!-- Camera permissions -->
+17-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:11:5-66
+17-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:11:19-63
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:6:5-65
+18-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:6:22-62
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Microphone permissions -->
+19-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:8:5-81
+19-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:8:22-78
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Require OpenGL ES >= 2.0. -->
+20-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:7:5-71
+20-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:7:22-68
+21    <uses-feature
+21-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:15:5-17:35
+22        android:glEsVersion="0x00020000"
+22-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:16:9-41
+23        android:required="true" />
+23-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:17:9-32
+24
+25    <application
+25-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:19:5-40:19
+26        android:allowBackup="true"
+26-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:20:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\880800a4edd8e54144964a8d6f4b8e71\core-1.3.1\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:21:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:22:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:23:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:24:9-35
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:25:9-40
+34        <activity android:name="com.androidexample.databaseapp.shoppingonline.PlaybackActivity" />
+34-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:26:9-63
+34-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:26:19-51
+35        <activity android:name="com.androidexample.databaseapp.shoppingonline.PortrateActivity" />
+35-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:27:9-54
+35-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:27:19-51
+36        <activity android:name="com.androidexample.databaseapp.shoppingonline.SignupActivity" />
+36-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:28:9-52
+36-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:28:19-49
+37        <activity android:name="com.androidexample.databaseapp.shoppingonline.LoginActivity" />
+37-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:29:9-51
+37-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:29:19-48
+38        <activity
+38-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:30:9-39:20
+39            android:name="com.androidexample.databaseapp.shoppingonline.MainActivity"
+39-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:31:13-41
+40            android:label="@string/app_name"
+40-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:32:13-45
+41            android:theme="@style/FullScreen" >
+41-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:33:13-46
+42            <intent-filter>
+42-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:34:13-38:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:35:17-69
+43-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:35:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:37:17-77
+45-->C:\Users\Dell\Downloads\SimpleSearchView-master\ShoppingOnline\app\src\main\AndroidManifest.xml:37:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bbe0bdb0f262f5ba1e37c4a740e3d493\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+50            android:name="com.squareup.picasso.PicassoProvider"
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bbe0bdb0f262f5ba1e37c4a740e3d493\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+51            android:authorities="com.androidexample.databaseapp.shoppingonline.com.squareup.picasso"
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bbe0bdb0f262f5ba1e37c4a740e3d493\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+52            android:exported="false" />
+52-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bbe0bdb0f262f5ba1e37c4a740e3d493\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+53        <provider
+53-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+54            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+55            android:authorities="com.androidexample.databaseapp.shoppingonline.lifecycle-process"
+55-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+56            android:exported="false"
+56-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+57            android:multiprocess="true" />
+57-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+58    </application>
+59
+60</manifest>
