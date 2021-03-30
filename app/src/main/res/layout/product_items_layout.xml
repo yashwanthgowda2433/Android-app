@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    app:cardElevation="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        >
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="630dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            />
+        <RelativeLayout
+            android:id="@+id/horizon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_image"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+
+        <ImageView
+            android:id="@+id/product_user"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+
+            android:textColor="@color/colorPrimaryDark"
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Product price"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/product_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentRight="true"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
